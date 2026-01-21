@@ -1,0 +1,53 @@
+Ping in Linux runs indefinitely, so you have to CTRL+C to stop the command. If you would like ping to act more like it does in the Windows operating system, then you can run it like this:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alceanate | Secure Access</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <div class="login-card">
+        <div class="brand-header">
+            <h1>ALCEANATE</h1>
+            <p>Intelligence Elevated</p>
+        </div>
+        
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">User Identity</label>
+                <input type="text" id="username" placeholder="Enter your email or ID" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="password">Access Key</label>
+                <input type="password" id="password" placeholder="••••••••" required>
+            </div>
+            
+            <div class="form-actions">
+                <label class="checkbox-container">
+          <div class ="form-actions,recovert optional server">
+         <div class="password -list,sign in time ">
+          <bg background-color="light yellow with shaded red ">
+            </label>
+          <a href="https://www.cbtnuggets.com/blog/technology/system-admin/3-common-linux-troubleshooting-techniques-for-diagnostics">
+            < input type = "character,int > not to 
+                    <input type="checkbox"> Remember Device
+                </label>
+                <a href="#" class="forgot-link">Recovery Options</a>
+            </div>
+            
+            <button type="submit" class="login-btn">Authenticate</button>
+        </form>
+        
+        <div class="footer-note">
+            <p>New to the network? <a href="#">Request Access</a></p>
+        </div>
+    </div>
+</body>
+</html>
+ping -c 4 192.168.1You will get an output that highlights all your active network connections. If you are using a wired connection, then you should see an eth0 or eth1, depending on your setup and how many network cards you have. If you are using a wireless card, you can look for wlan0 as your wireless adapter.
+
+In our example, we are looking at eth0, and our IP address is 192.168.1.111. We removed the mac address from this output, but you can find yours using this command: 
