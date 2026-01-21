@@ -6,6 +6,8 @@ Ping in Linux runs indefinitely, so you have to CTRL+C to stop the command. If y
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alceanate | Secure Access</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <label for="username">user 
 </head>
 <body>
     <div class="background-overlay"></div>
@@ -18,7 +20,7 @@ Ping in Linux runs indefinitely, so you have to CTRL+C to stop the command. If y
         <form id="loginForm">
             <div class="input-group">
                 <label for="username">User Identity</label>
-                <input type="text" id="username" placeholder="Enter your email or ID" required>
+                <input type="text" id="username" placeholder="Enter your email ID or company official mailID" required>
             </div>
             
             <div class="input-group">
@@ -51,3 +53,4 @@ Ping in Linux runs indefinitely, so you have to CTRL+C to stop the command. If y
 ping -c 4 192.168.1You will get an output that highlights all your active network connections. If you are using a wired connection, then you should see an eth0 or eth1, depending on your setup and how many network cards you have. If you are using a wireless card, you can look for wlan0 as your wireless adapter.
 
 In our example, we are looking at eth0, and our IP address is 192.168.1.111. We removed the mac address from this output, but you can find yours using this command: 
+
